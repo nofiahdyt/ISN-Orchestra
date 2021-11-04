@@ -5,572 +5,602 @@
 /*# sourceURL=/extensions/amp-loader/0.1/amp-loader.css*/</style><style amp-extension="amp-image-lightbox">amp-image-lightbox{position:fixed!important;top:0!important;left:0!important;bottom:0!important;right:0!important;margin:0!important;padding:0!important;overflow:hidden!important;transform:translateZ(0)!important;-ms-touch-action:none!important;touch-action:none!important;z-index:1000;background:rgba(0,0,0,0.95);color:#f2f2f2}.i-amphtml-image-lightbox-container{position:absolute;z-index:0;top:0;left:0;right:0;bottom:0;overflow:hidden;transform:translateZ(0)}.i-amphtml-image-lightbox-trans{pointer-events:none!important;position:fixed;z-index:1001;top:0;left:0;bottom:0;right:0}.i-amphtml-image-lightbox-caption{position:absolute!important;z-index:2;bottom:0!important;left:0!important;right:0!important}.i-amphtml-image-lightbox-caption.i-amphtml-empty,.i-amphtml-image-lightbox-view-mode .i-amphtml-image-lightbox-caption{visibility:hidden}.amp-image-lightbox-caption{background:rgba(0,0,0,0.5);max-height:25%;padding:8px}.i-amphtml-image-lightbox-viewer{position:absolute;z-index:1;top:0;left:0;right:0;bottom:0;overflow:hidden;transform:translateZ(0)}.i-amphtml-image-lightbox-viewer-image{position:absolute;z-index:1;display:block;transform-origin:50% 50%}
 /*# sourceURL=/extensions/amp-image-lightbox/0.1/amp-image-lightbox.css*/</style><style amp-extension="amp-sidebar">amp-sidebar{--story-page-vh:1vh;position:fixed!important;top:0;max-height:100vh!important;height:100vh;max-width:80vw;background-color:#efefef;min-width:45px!important;outline:none;overflow-x:hidden!important;overflow-y:auto!important;z-index:2147483647;-webkit-overflow-scrolling:touch;will-change:transform}amp-sidebar[side=left]{left:0!important;transform:translateX(-100%);animation-name:i-amphtml-sidebar-slide-out-left}amp-sidebar[side=left][open]{animation-name:i-amphtml-sidebar-slide-in-left}amp-sidebar[side=right]{right:0!important;transform:translateX(100%);animation-name:i-amphtml-sidebar-slide-out-right}amp-sidebar[side=right][open]{animation-name:i-amphtml-sidebar-slide-in-right}amp-sidebar[side][i-amphtml-sidebar-opened]{transform:none;animation:none}.i-amphtml-sidebar-mask,amp-sidebar[side]{animation-duration:233ms;animation-timing-function:cubic-bezier(0,0,.21,1);animation-fill-mode:forwards}.i-amphtml-toolbar>ol,.i-amphtml-toolbar>ul{display:-ms-flexbox;display:flex;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-wrap:wrap;flex-wrap:wrap;overflow:auto;list-style-type:none;padding:0;margin:0}.amp-sidebar-mask{background-color:rgba(0,0,0,0.5)}.i-amphtml-sidebar-mask{position:fixed!important;top:0!important;left:0!important;width:100vw!important;height:100vh!important;background-image:none!important;animation-name:i-amphtml-sidebar-mask-fade-out;z-index:2147483646}.i-amphtml-sidebar-mask[open]{animation-name:i-amphtml-sidebar-mask-fade-in}.i-amphtml-sidebar-mask[i-amphtml-sidebar-opened]{animation:none}@keyframes i-amphtml-sidebar-slide-in-left{0%{transform:translateX(-100%)}to{transform:translateX(0)}}@keyframes i-amphtml-sidebar-slide-out-left{0%{transform:translateX(0)}to{transform:translateX(-100%)}}@keyframes i-amphtml-sidebar-slide-in-right{0%{transform:translateX(100%)}to{transform:translateX(0)}}@keyframes i-amphtml-sidebar-slide-out-right{0%{transform:translateX(0)}to{transform:translateX(100%)}}@keyframes i-amphtml-sidebar-mask-fade-in{0%{opacity:0}to{opacity:1}}@keyframes i-amphtml-sidebar-mask-fade-out{0%{opacity:1}to{opacity:0}}
 </style>
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="8b v0.0.0.0, 8b.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="https://app.8b.io/app/themes/webamp/projects/company/assets/images/logo.png" type="image/x-icon">
-  <meta name="description" content="">
-  <title>ISN Orchestra</title>
-  
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="8b v0.0.0.0, 8b.com">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<link rel="shortcut icon" href="https://app.8b.io/app/themes/webamp/projects/company/assets/images/logo.png" type="image/x-icon">
+<meta name="description" content="">
+<title>ISN Orchestra</title>
+
 <link rel="canonical" href="https://353123.8b.io/page1.html">
- <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+<style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
 <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 <link href="./ISN Orchestra_files/css" rel="stylesheet">
- 
- <link rel="stylesheet" href="core.css">
- <link rel="stylesheet" href="fontawesome/css/all.css">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
- 
-  <script async="" src="./ISN Orchestra_files/v0.js.download"></script>
-  <script async="" custom-template="amp-mustache" src="./ISN Orchestra_files/amp-mustache-0.2.js.download"></script>
-  <script async="" custom-element="amp-analytics" src="./ISN Orchestra_files/amp-analytics-0.1.js.download"></script>
-  <script async="" custom-element="amp-sidebar" src="./ISN Orchestra_files/amp-sidebar-0.1.js.download"></script>
-  <script async="" custom-element="amp-youtube" src="./ISN Orchestra_files/amp-youtube-0.1.js.download"></script>
-  <script async="" custom-element="amp-image-lightbox" src="./ISN Orchestra_files/amp-image-lightbox-0.1.js.download"></script>
-  <script src="path-to-the-file/splide.min.js"></script>
-  
-  
+
+<link rel="stylesheet" href="core.css">
+<link rel="stylesheet" href="fontawesome/css/all.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+
+<script async="" src="./ISN Orchestra_files/v0.js.download"></script>
+<script async="" custom-template="amp-mustache" src="./ISN Orchestra_files/amp-mustache-0.2.js.download"></script>
+<script async="" custom-element="amp-analytics" src="./ISN Orchestra_files/amp-analytics-0.1.js.download"></script>
+<script async="" custom-element="amp-sidebar" src="./ISN Orchestra_files/amp-sidebar-0.1.js.download"></script>
+<script async="" custom-element="amp-youtube" src="./ISN Orchestra_files/amp-youtube-0.1.js.download"></script>
+<script async="" custom-element="amp-image-lightbox" src="./ISN Orchestra_files/amp-image-lightbox-0.1.js.download"></script>
+<script src="path-to-the-file/splide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+crossorigin="anonymous"></script>
+
+
 <script async="" custom-element="amp-auto-lightbox" data-script="amp-auto-lightbox" i-amphtml-inserted="" crossorigin="anonymous" src="./ISN Orchestra_files/amp-auto-lightbox-0.1.js.download"></script>
 <script async="" custom-element="amp-loader" data-script="amp-loader" i-amphtml-inserted="" crossorigin="anonymous" src="./ISN Orchestra_files/amp-loader-0.1.js.download"></script>
 </head>
 
 <body class="amp-mode-mouse amp-mode-keyboard-active" style="opacity: 1; visibility: visible; animation: 0s ease 0s 1 normal none running none;"><amp-sidebar id="sidebar" class="cid-sNfO4LNszc i-amphtml-element i-amphtml-layout-nodisplay i-amphtml-overlay i-amphtml-scrollable i-amphtml-built" layout="nodisplay" side="right" hidden="" i-amphtml-layout="nodisplay" role="menu" tabindex="-1">
-		<div class="builder-sidebar" id="builder-sidebar">
-			<button on="tap:sidebar.close" class="close-sidebar">
+	<div class="builder-sidebar" id="builder-sidebar">
+		<button on="tap:sidebar.close" class="close-sidebar">
 			<span></span>
 			<span></span>
-			</button>				
-				<!-- NAVBAR ITEMS -->
-				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-					<li class="nav-item">
-						 <a class="nav-link mbr-bold link text-black display-7" href="index.html">Beranda</a>  
-					</li>
-					<li class="nav-item dropdown open">
-						<a class="nav-link mbr-bold link text-black dropdown-toggle display-7" data-toggle="dropdown-submenu" aria-expanded="true">Tentang Kami</a>
-						<div class="dropdown-menu">
-							<a class="mbr-bold text-black dropdown-item display-7" href="profil.html">Profil Kami</a>
-							<a class="mbr-bold text-black dropdown-item display-7" href="founder.html">Founder</a>
-							<a class="mbr-bold text-black dropdown-item display-7" href="music_director.html">Music Director</a>
-							<a class="mbr-bold text-black dropdown-item display-7" href="musician.html">Musician</a>
-							<a class="mbr-bold text-black dropdown-item display-7" href="performer.html">Performer</a>
-							<div class="dropdown open">
-								<a class="mbr-bold text-black dropdown-item dropdown-toggle display-7" data-toggle="dropdown-submenu">Portofolio</a>
-								<div class="dropdown-menu dropdown-submenu">
-									<a class="mbr-bold text-black dropdown-item display-7" href="tales.html">Tales of Musical Journey</a>
-								</div>
-							</div>
-						</div>    
-					</li>
-					
-					<li class="nav-item dropdown open">
-						<a class="nav-link mbr-bold link text-black dropdown-toggle display-7" data-toggle="dropdown-submenu" aria-expanded="true">Karya</a>
-						<div class="dropdown-menu">
-							<a class="mbr-bold text-black dropdown-item display-7" href="lagu.html">Lagu</a>
-							<a class="mbr-bold text-black dropdown-item display-7" href="konser.html">Konser</a>
+		</button>				
+		<!-- NAVBAR ITEMS -->
+		<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+			<li class="nav-item">
+				<a class="nav-link mbr-bold link text-black display-7" href="index.html">Beranda</a>  
+			</li>
+			<li class="nav-item dropdown open">
+				<a class="nav-link mbr-bold link text-black dropdown-toggle display-7" data-toggle="dropdown-submenu" aria-expanded="true">Tentang Kami</a>
+				<div class="dropdown-menu">
+					<a class="mbr-bold text-black dropdown-item display-7" href="profil.html">Profil Kami</a>
+					<a class="mbr-bold text-black dropdown-item display-7" href="founder.html">Founder</a>
+					<a class="mbr-bold text-black dropdown-item display-7" href="music_director.html">Music Director</a>
+					<a class="mbr-bold text-black dropdown-item display-7" href="musician.html">Musician</a>
+					<a class="mbr-bold text-black dropdown-item display-7" href="performer.html">Performer</a>
+					<div class="dropdown open">
+						<a class="mbr-bold text-black dropdown-item dropdown-toggle display-7" data-toggle="dropdown-submenu">Portofolio</a>
+						<div class="dropdown-menu dropdown-submenu">
+							<a class="mbr-bold text-black dropdown-item display-7" href="tales.html">Tales of Musical Journey</a>
 						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link mbr-bold link text-black display-7" href="index.html#contacts7-2k">Kontak</a>
-					</li>
-				</ul>
-			</div>
+					</div>
+				</div>    
+			</li>
+
+			<li class="nav-item dropdown open">
+				<a class="nav-link mbr-bold link text-black dropdown-toggle display-7" data-toggle="dropdown-submenu" aria-expanded="true">Karya</a>
+				<div class="dropdown-menu">
+					<a class="mbr-bold text-black dropdown-item display-7" href="lagu.html">Lagu</a>
+					<a class="mbr-bold text-black dropdown-item display-7" href="konser.html">Konser</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link mbr-bold link text-black display-7" href="index.html#contacts7-2k">Kontak</a>
+			</li>
+		</ul>
+	</div>
 	<button class="i-amphtml-screen-reader" tabindex="-1">Close the sidebar</button></amp-sidebar>
-  <section class="menu1 menu horizontal-menu cid-sNfO4LNszc" id="menu1-2c">
-	
-	<!-- <div class="menu-wrapper"> -->
-	<nav class="navbar navbar-dropdown navbar-expand-lg">
-		<div class="menu-container container">
-			<!-- SHOW LOGO -->
-			<div class="navbar-brand">				
-				<span class="navbar-caption-wrap"><a class="navbar-caption mbr-bold text-black display-5" href="index.html"><img src="img/logoo.png" ></a></span>
+	<section class="menu1 menu horizontal-menu cid-sNfO4LNszc" id="menu1-2c">
+
+		<!-- <div class="menu-wrapper"> -->
+			<nav class="navbar navbar-dropdown navbar-expand-lg">
+				<div class="menu-container container">
+					<!-- SHOW LOGO -->
+					<div class="navbar-brand">				
+						<span class="navbar-caption-wrap"><a class="navbar-caption mbr-bold text-black display-5" href="index.html"><img src="img/logoo.png" ></a></span>
+					</div>
+					<!-- SHOW LOGO END -->
+					<!-- COLLAPSED MENU -->
+					<div class="collapse navbar-collapse">
+
+						<!-- NAVBAR ITEMS -->
+						<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+							<li class="nav-item">
+								<a class="nav-link mbr-bold link text-black display-7" href="index.html">Beranda</a>  
+							</li>
+							<li class="nav-item dropdown open">
+								<a class="nav-link mbr-bold link text-black dropdown-toggle display-7" data-toggle="dropdown-submenu" aria-expanded="true">Tentang Kami</a>
+								<div class="dropdown-menu">
+									<a class="mbr-bold text-black dropdown-item display-7" href="profil.html">Profil Kami</a>
+									<a class="mbr-bold text-black dropdown-item display-7" href="founder.html">Founder</a>
+									<a class="mbr-bold text-black dropdown-item display-7" href="music_director.html">Music Director</a>
+									<a class="mbr-bold text-black dropdown-item display-7" href="musician.html">Musician</a>
+									<a class="mbr-bold text-black dropdown-item display-7" href="performer.html">Performer</a>
+									<div class="dropdown open">
+										<a class="mbr-bold text-black dropdown-item dropdown-toggle display-7" data-toggle="dropdown-submenu">Portofolio</a>
+										<div class="dropdown-menu dropdown-submenu">
+											<a class="mbr-bold text-black dropdown-item display-7" href="tales.html">Tales of Musical Journey</a>
+										</div>
+									</div>
+								</div>    
+							</li>
+
+							<li class="nav-item dropdown open">
+								<a class="nav-link mbr-bold link text-black dropdown-toggle display-7" data-toggle="dropdown-submenu" aria-expanded="true">Karya</a>
+								<div class="dropdown-menu">
+									<a class="mbr-bold text-black dropdown-item display-7" href="lagu.html">Lagu</a>
+									<a class="mbr-bold text-black dropdown-item display-7" href="konser.html">Konser</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link mbr-bold link text-black display-7" href="index.html#contacts7-2k">Kontak</a>
+							</li>
+						</ul>
+						<!-- NAVBAR ITEMS END -->
+						<!-- SOCIAL ICON -->
+
+						<!-- SOCIAL ICON END -->
+						<!-- SHOW BUTTON -->
+
+						<!-- SHOW BUTTON END -->
+					</div>
+					<!-- COLLAPSED MENU END -->
+
+					<button on="tap:sidebar.toggle" class="ampstart-btn hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</nav>
+			<!-- AMP plug -->
+
+			<!-- </div> -->
+		</section>
+
+		<section class="header1 cid-sNfO4Mfn2J" id="header1-2d">
+
+			<div class="container">
+				<div class="mbr-row align-left">
+					<div class="title-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12">
+						<h1 class="mbr-section-title mbr-fonts-style mbr-bold display-5" style="color:darkred;">ISN Virtual Concert<br>1 Tahun Berkarya di Masa Pandemi</h1>
+						<h2 class="mbr-section-subtitle mbr-fonts-style mbr-pt-3 display-5" style="color:darkred;">10-11-2021</h2>                  
+					</div>
+				</div>
 			</div>
-			<!-- SHOW LOGO END -->
-			<!-- COLLAPSED MENU -->
-			<div class="collapse navbar-collapse">
-				
-				<!-- NAVBAR ITEMS -->
-				<ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-					<li class="nav-item">
-						 <a class="nav-link mbr-bold link text-black display-7" href="index.html">Beranda</a>  
-					</li>
-					<li class="nav-item dropdown open">
-						<a class="nav-link mbr-bold link text-black dropdown-toggle display-7" data-toggle="dropdown-submenu" aria-expanded="true">Tentang Kami</a>
-						<div class="dropdown-menu">
-							<a class="mbr-bold text-black dropdown-item display-7" href="profil.html">Profil Kami</a>
-							<a class="mbr-bold text-black dropdown-item display-7" href="founder.html">Founder</a>
-							<a class="mbr-bold text-black dropdown-item display-7" href="music_director.html">Music Director</a>
-							<a class="mbr-bold text-black dropdown-item display-7" href="musician.html">Musician</a>
-							<a class="mbr-bold text-black dropdown-item display-7" href="performer.html">Performer</a>
-							<div class="dropdown open">
-								<a class="mbr-bold text-black dropdown-item dropdown-toggle display-7" data-toggle="dropdown-submenu">Portofolio</a>
-								<div class="dropdown-menu dropdown-submenu">
-									<a class="mbr-bold text-black dropdown-item display-7" href="tales.html">Tales of Musical Journey</a>
+		</section>
+
+		<section class="features1 cid-sNfO4MzgCU" id="features1-2e">
+			<div class="container">
+				<div class="title-wrap mbr-pb-4 align-center">
+					<h3 class="mbr-section-title mbr-bold mbr-fonts-style display-5">Tentang Kami</h3>            
+				</div>
+				<div class="mbr-row">
+					<div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 align-center md-pb">
+						<div class="card-wrapper mbr-flex mbr-column mbr-pt-3 mbr-pb-3 mbr-px-4">
+							<div class="card-img align-center mbr-pb-3">
+								<div class="iconfont-wrapper">
+									<span class="amp-iconfont mbri-music"><a href="founder.html"><i class="fas fa-guitar" style="color:darkred;"></i></a></span>
 								</div>
 							</div>
-						</div>    
-					</li>
-					
-					<li class="nav-item dropdown open">
-						<a class="nav-link mbr-bold link text-black dropdown-toggle display-7" data-toggle="dropdown-submenu" aria-expanded="true">Karya</a>
-						<div class="dropdown-menu">
-							<a class="mbr-bold text-black dropdown-item display-7" href="lagu.html">Lagu</a>
-							<a class="mbr-bold text-black dropdown-item display-7" href="konser.html">Konser</a>
+							<div class="card-box">
+								<h3 class="card-title mbr-bold mbr-fonts-style display-7">Founder</h3>   
+							</div>
 						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link mbr-bold link text-black display-7" href="index.html#contacts7-2k">Kontak</a>
-					</li>
-				</ul>
-				<!-- NAVBAR ITEMS END -->
-				<!-- SOCIAL ICON -->
-				
-				<!-- SOCIAL ICON END -->
-				<!-- SHOW BUTTON -->
-				
-				<!-- SHOW BUTTON END -->
+					</div>
+					<div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 align-center md-pb">
+						<div class="card-wrapper mbr-flex mbr-column mbr-pt-3 mbr-pb-3 mbr-px-4">
+							<div class="card-img align-center mbr-pb-3">
+								<div class="iconfont-wrapper">
+									<span class="amp-iconfont mbri-music"><a href="music_director.html"><i class="fas fa-guitar"  style="color:darkred;"></i></a></span>
+								</div>
+							</div>
+							<div class="card-box">
+								<h3 class="card-title mbr-bold mbr-fonts-style display-7">Music Director</h3>
+							</div>
+						</div>
+					</div>
+					<div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 align-center md-pb">
+						<div class="card-wrapper mbr-flex mbr-column mbr-pt-3 mbr-pb-3 mbr-px-4">
+							<div class="card-img align-center mbr-pb-3">
+								<div class="iconfont-wrapper">
+									<span class="amp-iconfont mbri-music"><a href="musician.html"><i class="fas fa-guitar" style="color:darkred;"></i></a></i></span>
+								</div>
+							</div>
+							<div class="card-box">
+								<h3 class="card-title mbr-bold mbr-fonts-style display-7">Musician</h3>
+							</div>
+						</div>
+					</div>
+					<div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 align-center last-child">
+						<div class="card-wrapper mbr-flex mbr-column mbr-pt-3 mbr-pb-3 mbr-px-4">
+							<div class="card-img align-center mbr-pb-3">
+								<div class="iconfont-wrapper">
+									<span class="amp-iconfont mbri-music"><a href="performer.html"><i class="fas fa-guitar"  style="color:darkred;"></a></i></span>
+								</div>
+							</div>
+							<div class="card-box">
+								<h3 class="card-title mbr-bold mbr-fonts-style display-7">Performer</h3>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<!-- COLLAPSED MENU END -->
-			
-			<button on="tap:sidebar.toggle" class="ampstart-btn hamburger">
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-			</button>
-		</div>
-	</nav>
-	<!-- AMP plug -->
-	
-	<!-- </div> -->
-</section>
+		</section>
 
-<section class="header1 cid-sNfO4Mfn2J" id="header1-2d">
-    
-    <div class="container">
-        <div class="mbr-row align-left">
-            <div class="title-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12">
-                <h1 class="mbr-section-title mbr-fonts-style mbr-bold display-5" style="color:darkred;">ISN Virtual Concert<br>1 Tahun Berkarya di Masa Pandemi</h1>
-                <h2 class="mbr-section-subtitle mbr-fonts-style mbr-pt-3 display-5" style="color:darkred;">10-11-2021</h2>                  
-            </div>
+		<section class="features1 cid-sNfV4EFIrD" id="features1-2p">
+
+
+
+			<div class="container">
+				<div class="title-wrap mbr-pb-4 align-center">
+					<h3 class="mbr-section-title mbr-bold mbr-fonts-style display-5">Karya Kami</h3>
+
+				</div>
+				<div class="mbr-row mbr-jc-c">
+					<div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6">
+						<div class="card-wrapper mbr-flex mbr-column mbr-pt-3 mbr-pb-3 mbr-px-4">
+							<center>
+								<div class="card-img mbr-pb-3">
+									<div class="iconfont-wrapper">
+										<span class="amp-iconfont mbri-music"><a href="lagu.html"><i class="fas fa-music" style="color:darkred;"></i></a></span>
+									</div>
+								</div>
+								<div class="card-box">
+									<h3 class="card-title mbr-bold mbr-fonts-style display-5">Lagu - Lagu</h3>
+								</div>
+							</center>
+						</div>
+					</div>
+					<div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6 last-child">
+						<div class="card-wrapper mbr-flex mbr-column mbr-pt-3 mbr-pb-3 mbr-px-4">
+							<center>
+								<div class="card-img mbr-pb-3">
+									<div class="iconfont-wrapper">
+										<span class="amp-iconfont mbri-music"><a href="konser.html"><i class="fas fa-play-circle" style="color:darkred;"></i></a></span>
+									</div>
+								</div>
+								<div class="card-box">
+									<h3 class="card-title mbr-bold mbr-fonts-style display-5">Konser Virtual</h3>
+								</div>
+							</center>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+
+		<section class="youtube1 cid-sNfPzWIpTn" id="video1-2n">
+			<div class="mbr-jc-c container">
+				<div class="title-block mbr-col-sm-12 mbr-col-md-12 mbr-m-auto mbr-px-4 mbr-pb-4 align-center">
+					<h2 class="mbr-section-title mbr-bold mbr-fonts-style display-5">Video Orchestra</h2>  
+				</div>
+				<div>
+					<div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+				        <ol class="carousel-indicators">
+				            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+				            <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+				            <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+				        </ol>
+				        <div class="carousel-inner">
+				        	<div class="carousel-item active">
+				        		<div class="video-wrap">
+				        			<iframe width="600" height="350" src="https://www.youtube.com/embed/l-IA2Aa37H4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				        		</div>
+				        	</div>
+				        	<div class="carousel-item">
+				        		<div class="video-wrap">
+
+				        			<iframe width="600" height="350" src="https://www.youtube.com/embed/ZVwALpNTL4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				        		</div>
+				        	</div>
+				        </div>
+				        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators1" data-slide="prev" style="color: grey;">
+				        	<span class="carousel-control-prev-icon" style="color: grey;" aria-hidden="true"></span>
+				        	<span class="sr-only" style="color: grey;">Previous</span>
+				        </button>
+				        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators1" data-slide="next" style="color: grey;">
+				        	<span class="carousel-control-next-icon" style="color: grey;" aria-hidden="true"></span>
+				        	<span class="sr-only" style="color: grey;">Next</span>
+				        </button>
+			    	</div>
+				</div>
+			</div>
+		</section>
+
+	<section class="youtube1 cid-sNfPzWIpTn" id="video2-2n">
+		<div class="mbr-jc-c container">
+			<div class="title-block mbr-col-sm-12 mbr-col-md-12 mbr-m-auto mbr-px-4 mbr-pb-4 align-center">
+				<h2 class="mbr-section-title mbr-bold mbr-fonts-style display-5">Video Klip Lagu</h2>  
+			</div>
+			<div>
+				<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+        	<div class="carousel-item active">
+        		<div class="video-wrap">
+
+        			<iframe width="600" height="350" src="https://www.youtube.com/embed/pAsS0P_drdw"
+        			title="YouTube video player" frameborder="0"
+        			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        			allowfullscreen></iframe>
+        		</div>
+        	</div>
+        	<div class="carousel-item">
+        		<div class="video-wrap">
+
+        			<iframe width="600" height="350" src="https://www.youtube.com/embed/4oPqlHhZuy0"
+        			title="YouTube video player" frameborder="0"
+        			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        			allowfullscreen></iframe>
+        		</div>
+        	</div>
+        	<div class="carousel-item">
+        		<div class="video-wrap">
+
+        			<iframe width="600" height="350" src="https://www.youtube.com/embed/aX3vZcblzlY"
+        			title="YouTube video player" frameborder="0"
+        			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        			allowfullscreen></iframe>
+        		</div>
+        	</div>
+        	<div class="carousel-item">
+        		<div class="video-wrap">
+
+        			<iframe width="600" height="350" src="https://www.youtube.com/embed/TVOSSGX7UUA"
+        			title="YouTube video player" frameborder="0"
+        			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        			allowfullscreen></iframe>
+        		</div>
+        	</div>
         </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators2" data-slide="prev" style="color: grey;">
+        	<span class="carousel-control-prev-icon" style="color: grey;" aria-hidden="true"></span>
+        	<span class="sr-only" style="color: grey;">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators2" data-slide="next" style="color: grey;">
+        	<span class="carousel-control-next-icon" style="color: grey;" aria-hidden="true"></span>
+        	<span class="sr-only" style="color: grey;">Next</span>
+        </button>
     </div>
-</section>
+</div>
 
-<section class="features1 cid-sNfO4MzgCU" id="features1-2e">
-    <div class="container">
-        <div class="title-wrap mbr-pb-4 align-center">
-            <h3 class="mbr-section-title mbr-bold mbr-fonts-style display-5">Tentang Kami</h3>            
-        </div>
-        <div class="mbr-row">
-            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 align-center md-pb">
-                <div class="card-wrapper mbr-flex mbr-column mbr-pt-3 mbr-pb-3 mbr-px-4">
-                    <div class="card-img align-center mbr-pb-3">
-                        <div class="iconfont-wrapper">
-                            <span class="amp-iconfont mbri-music"><a href="founder.html"><i class="fas fa-guitar" style="color:darkred;"></i></a></span>
-                        </div>
-                    </div>
-                    <div class="card-box">
-                        <h3 class="card-title mbr-bold mbr-fonts-style display-7">Founder</h3>   
-                    </div>
-                </div>
-            </div>
-            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 align-center md-pb">
-                <div class="card-wrapper mbr-flex mbr-column mbr-pt-3 mbr-pb-3 mbr-px-4">
-                    <div class="card-img align-center mbr-pb-3">
-                        <div class="iconfont-wrapper">
-                            <span class="amp-iconfont mbri-music"><a href="music_director.html"><i class="fas fa-guitar"  style="color:darkred;"></i></a></span>
-                        </div>
-                    </div>
-                    <div class="card-box">
-                        <h3 class="card-title mbr-bold mbr-fonts-style display-7">Music Director</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 align-center md-pb">
-                <div class="card-wrapper mbr-flex mbr-column mbr-pt-3 mbr-pb-3 mbr-px-4">
-                    <div class="card-img align-center mbr-pb-3">
-                        <div class="iconfont-wrapper">
-                            <span class="amp-iconfont mbri-music"><a href="musician.html"><i class="fas fa-guitar" style="color:darkred;"></i></a></i></span>
-                        </div>
-                    </div>
-                    <div class="card-box">
-                        <h3 class="card-title mbr-bold mbr-fonts-style display-7">Musician</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 align-center last-child">
-                <div class="card-wrapper mbr-flex mbr-column mbr-pt-3 mbr-pb-3 mbr-px-4">
-                    <div class="card-img align-center mbr-pb-3">
-                        <div class="iconfont-wrapper">
-                            <span class="amp-iconfont mbri-music"><a href="performer.html"><i class="fas fa-guitar"  style="color:darkred;"></a></i></span>
-                        </div>
-                    </div>
-                    <div class="card-box">
-                        <h3 class="card-title mbr-bold mbr-fonts-style display-7">Performer</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<section class="features1 cid-sNfV4EFIrD" id="features1-2p">
-    
-
-    
-    <div class="container">
-        <div class="title-wrap mbr-pb-4 align-center">
-            <h3 class="mbr-section-title mbr-bold mbr-fonts-style display-5">Karya Kami</h3>
-            
-        </div>
-        <div class="mbr-row mbr-jc-c">
-            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6">
-                <div class="card-wrapper mbr-flex mbr-column mbr-pt-3 mbr-pb-3 mbr-px-4">
-                	<center>
-                    <div class="card-img mbr-pb-3">
-                        <div class="iconfont-wrapper">
-                            <span class="amp-iconfont mbri-music"><a href="lagu.html"><i class="fas fa-music" style="color:darkred;"></i></a></span>
-                        </div>
-                    </div>
-                    <div class="card-box">
-                        <h3 class="card-title mbr-bold mbr-fonts-style display-5">Lagu - Lagu</h3>
-                    </div>
-                    </center>
-                </div>
-            </div>
-            <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-6 last-child">
-                <div class="card-wrapper mbr-flex mbr-column mbr-pt-3 mbr-pb-3 mbr-px-4">
-                	<center>
-                    <div class="card-img mbr-pb-3">
-                        <div class="iconfont-wrapper">
-                            <span class="amp-iconfont mbri-music"><a href="konser.html"><i class="fas fa-play-circle" style="color:darkred;"></i></a></span>
-                        </div>
-                    </div>
-                    <div class="card-box">
-                        <h3 class="card-title mbr-bold mbr-fonts-style display-5">Konser Virtual</h3>
-                    </div>
-                    </center>
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
-</section>
-
-<section class="youtube1 cid-sNfPzWIpTn" id="video1-2n">
-	<div class="mbr-jc-c container">
-		<div class="title-block mbr-col-sm-12 mbr-col-md-12 mbr-m-auto mbr-px-4 mbr-pb-4 align-center">
-			<h2 class="mbr-section-title mbr-bold mbr-fonts-style display-5">Video Orchestra</h2>  
-		</div>
-		<div class="video-block mbr-m-auto mbr-col-md-8">
-			<center>
-				<iframe width="600" height="350" src="https://www.youtube.com/embed/l-IA2Aa37H4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<iframe width="600" height="350" src="https://www.youtube.com/embed/ZVwALpNTL4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</center>
-		</div>
-	</div>
-</section>
-
-<section class="youtube1 cid-sNfPzWIpTn" id="video1-2n">
-	<div class="mbr-jc-c container">
-		<div class="title-block mbr-col-sm-12 mbr-col-md-12 mbr-m-auto mbr-px-4 mbr-pb-4 align-center">
-			<h2 class="mbr-section-title mbr-bold mbr-fonts-style display-5">Video Klip Lagu</h2>  
-		</div>
-		<div class="video-block mbr-m-auto mbr-col-md-8">
-			<center>
-				<iframe width="600" height="350" src="https://www.youtube.com/embed/pAsS0P_drdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<iframe width="600" height="350" src="https://www.youtube.com/embed/4oPqlHhZuy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<iframe width="600" height="350" src="https://www.youtube.com/embed/aX3vZcblzlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<iframe width="600" height="350" src="https://www.youtube.com/embed/TVOSSGX7UUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</center>
-		</div>
-	</div>
+</div>
 </section>
 
 <section class="gallery gallery2 cid-sNfO4OxrRN" id="gallery2-2h">
-    
-    
-    <div class="container">
-        <div class="title mbr-pb-4 align-center">
-            <h3 class="mbr-section-title mbr-bold mbr-fonts-style display-5">Galeri</h3>
-            
-        </div>
-        <div class="mbr-row mbr-px-2 gallery-wrap mbr-jc-c">
-            <div class="mbr-col-md-12 mbr-col-sm-12 gallery-row row-first flex-wrap mbr-col-lg-12 mbr-pb-4 mbr-flex">
-                
-            <div class="gallery-item mbr-col-sm-12 mbr-col-lg-4 mbr-col-md-8 md-pb mbr-px-2">
-                    <div class="gallery-img-wrap">
-                        <amp-img on="tap:lightbox1" role="button" tabindex="0" class="placeholder-loader image-without-link i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="img/gal1.png" layout="responsive" height="628" width="942" alt="" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer>
-                            <div placeholder="" class="placeholder amp-hidden">
-                                <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
-                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
-                                </svg> --></div>
-                            
-                        <img decoding="async" alt="" src="img/gal1.png" class="i-amphtml-fill-content i-amphtml-replaced-content" alt = ""></amp-img>
-                        <div class="icon-wrap iconfont-wrapper" on="tap:lightbox1" role="button" tabindex="0">
-                            <span class="amp-iconfont fa-search fa"></span>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="gallery-item mbr-col-sm-12 mbr-col-lg-4 mbr-col-md-8 md-pb mbr-px-2">
-                    <div class="gallery-img-wrap">
-                        <amp-img on="tap:lightbox1" role="button" tabindex="0" class="placeholder-loader image-without-link i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="img/gal2.png" layout="responsive" height="628" width="942" alt="" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer>
-                            <div placeholder="" class="placeholder amp-hidden">
-                                <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
-                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
-                                </svg> --></div>
-                            
-                        <img decoding="async" alt="" src="img/gal2.png" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
-                        <div class="icon-wrap iconfont-wrapper" on="tap:lightbox1" role="button" tabindex="0">
-                            <span class="amp-iconfont fa-search fa"></span>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="gallery-item mbr-col-sm-12 mbr-col-lg-4 mbr-col-md-8 md-pb mbr-px-2">
-                    <div class="gallery-img-wrap">
-                        <amp-img on="tap:lightbox1" role="button" tabindex="0" class="placeholder-loader image-without-link i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="img/gal3.png" layout="responsive" height="628" width="942" alt="" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer>
-                            <div placeholder="" class="placeholder amp-hidden">
-                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
-                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
-                                </svg></div>
-                            
-                        <img decoding="async" alt="" src="img/gal3.png" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
-                        <div class="icon-wrap iconfont-wrapper" on="tap:lightbox1" role="button" tabindex="0">
-                            <span class="amp-iconfont fa-search fa"></span>
-                        </div>
-                        
-                    </div>
-                </div></div>
-            <div class="mbr-col-md-12 mbr-col-sm-12 gallery-row row-second flex-wrap mbr-col-lg-12 mbr-pb-4 mbr-flex">
-                
-            <div class="gallery-item mbr-col-sm-12 mbr-col-lg-4 mbr-col-md-8 md-pb mbr-px-2">
-                    <div class="gallery-img-wrap">
-                        <amp-img on="tap:lightbox1" role="button" tabindex="0" class="placeholder-loader image-without-link i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="img/gal4.png" layout="responsive" height="628" width="942" alt="" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer>
-                            <div placeholder="" class="placeholder amp-hidden">
-                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
-                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
-                                </svg></div>
-                            
-                        <img decoding="async" alt="" src="img/gal4.png" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
-                        <div class="icon-wrap iconfont-wrapper" on="tap:lightbox1" role="button" tabindex="0">
-                            <span class="amp-iconfont fa-search fa"></span>
-                        </div>
-                        
-                    </div>
-                </div><div class="gallery-item mbr-col-sm-12 mbr-col-lg-4 mbr-col-md-8 md-pb mbr-px-2">
-                    <div class="gallery-img-wrap">
-                        <amp-img on="tap:lightbox1" role="button" tabindex="0" class="placeholder-loader image-without-link i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="img/gal5.png" layout="responsive" height="628" width="942" alt="" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer>
-                            <div placeholder="" class="placeholder amp-hidden">
-                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
-                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
-                                </svg></div>
-                            
-                        <img decoding="async" alt="" src="img/gal5.png" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
-                        <div class="icon-wrap iconfont-wrapper" on="tap:lightbox1" role="button" tabindex="0">
-                            <span class="amp-iconfont fa-search fa"></span>
-                        </div>
-                        
-                    </div>
-                </div><div class="gallery-item mbr-col-sm-12 mbr-col-lg-4 mbr-col-md-8 md-pb mbr-px-2">
-                    <div class="gallery-img-wrap">
-                        <amp-img on="tap:lightbox1" role="button" tabindex="0" class="placeholder-loader image-without-link i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="img/gal6.png" layout="responsive" height="628" width="942" alt="" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer>
-                            <div placeholder="" class="placeholder amp-hidden">
-                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
-                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
-                                </svg></div>
-                            
-                        <img decoding="async" alt="" src="img/gal6.png" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
-                        <div class="icon-wrap iconfont-wrapper" on="tap:lightbox1" role="button" tabindex="0">
-                            <span class="amp-iconfont fa-search fa"></span>
-                        </div>
-                        
-                    </div>
-                </div></div>
-            
-            
-        </div>
-    </div>
-    <amp-image-lightbox id="lightbox1" layout="nodisplay" class="i-amphtml-element i-amphtml-layout-nodisplay i-amphtml-built" i-amphtml-layout="nodisplay" style="" hidden="">
-        <a class="control" data-close-button-aria-label="Close">
-            <span class="close"></span>
-        </a>
-    <div class="i-amphtml-image-lightbox-container" style=""><div class="i-amphtml-image-lightbox-viewer"><img class="i-amphtml-image-lightbox-viewer-image" src="https://353123.8b.io/page1.html" style="top: 0px; left: 200px; width: 1118px; height: 746px; transform: translate(0px, 0px) scale(1);"></div><div id="lightbox1-caption" class="amp-image-lightbox-caption i-amphtml-image-lightbox-caption i-amphtml-empty"></div></div><button class="i-amphtml-screen-reader" tabindex="-1">Close the lightbox</button></amp-image-lightbox>
-</section>
 
-<section class="testimonials1 cid-sNfTzNl8bR" id="testimonials1-2o">
-    
-    
-    <!--  -->
-    <div class="container">
-        <div class="title align-center">
-            <h3 class="mbr-section-title mbr-bold mbr-fonts-style display-5">Ucapan Terima Kasih</h3>
-            
-        </div>
-        <div class="mbr-row mbr-jc-c mbr-pt-4">
-            <!-- <div class="card mbr-col-sm-12 mbr-col-md-5 mbr-col-lg-3 align-center md-pb">
-                <div class="card-wrapper">
-                    <div class="card-img img-with-overlay mbr-m-auto">
-                        <amp-img class="placeholder-loader rounded i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="https://app.8b.io/app/themes/webamp/components/_images/faces/face1.jpg" layout="responsive" width="253" height="253" alt="" i-amphtml-layout="responsive" style="--loader-delay-offset:27ms !important;"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
-                            <div placeholder="" class="placeholder amp-hidden">
-                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+
+	<div class="container">
+		<div class="title mbr-pb-4 align-center">
+			<h3 class="mbr-section-title mbr-bold mbr-fonts-style display-5">Galeri</h3>
+
+		</div>
+		<div class="mbr-row mbr-px-2 gallery-wrap mbr-jc-c">
+			<div class="mbr-col-md-12 mbr-col-sm-12 gallery-row row-first flex-wrap mbr-col-lg-12 mbr-pb-4 mbr-flex">
+
+				<div class="gallery-item mbr-col-sm-12 mbr-col-lg-4 mbr-col-md-8 md-pb mbr-px-2">
+					<div class="gallery-img-wrap">
+						<amp-img on="tap:lightbox1" role="button" tabindex="0" class="placeholder-loader image-without-link i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="img/gal1.png" layout="responsive" height="628" width="942" alt="" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer>
+							<div placeholder="" class="placeholder amp-hidden">
+                                <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
                                     <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
                                     <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
-                                </svg></div>
-                            
-                        <img decoding="async" alt="" src="./ISN Orchestra_files/face1.jpg" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
-                    </div>
-                    <div class="card-box mbr-pt-3">
-                        <h3 class="card-title mbr-bold mbr-fonts-style display-5">BCA</h3>
-                        
-                        
-                        
-                    </div>
-                </div>
-            </div> -->
-            <!--  -->
-            <div class="card mbr-col-sm-12 mbr-col-md-5 mbr-col-lg-3 align-center md-pb">
-                <div class="card-wrapper">
-                    <div class="card-img img-with-overlay mbr-m-auto">
-                        <amp-img class="placeholder-loader rounded i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="img/87logo.png" layout="responsive" width="253" height="253" alt="" i-amphtml-layout="responsive" style="--loader-delay-offset:28ms !important;"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
-                            <div placeholder="" class="placeholder amp-hidden">
-                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                </svg> --></div>
+
+                                <img decoding="async" alt="" src="img/gal1.png" class="i-amphtml-fill-content i-amphtml-replaced-content" alt = ""></amp-img>
+                                <div class="icon-wrap iconfont-wrapper" on="tap:lightbox1" role="button" tabindex="0">
+                                	<span class="amp-iconfont fa-search fa"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="gallery-item mbr-col-sm-12 mbr-col-lg-4 mbr-col-md-8 md-pb mbr-px-2">
+                        	<div class="gallery-img-wrap">
+                        		<amp-img on="tap:lightbox1" role="button" tabindex="0" class="placeholder-loader image-without-link i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="img/gal2.png" layout="responsive" height="628" width="942" alt="" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer>
+                        			<div placeholder="" class="placeholder amp-hidden">
+                                <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
                                     <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
                                     <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
-                                </svg></div>
-                            
-                        <img decoding="async" alt="" src="img/87logo.png" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
-                    </div>
-                    <div class="card-box mbr-pt-3">
-                        <h3 class="card-title mbr-bold mbr-fonts-style display-7">Media AKUTAHU</h3>
-                        
-                        
-                        
-                    </div>
-                </div>
-            </div>
-            <!--  -->
-            <!-- <div class="card mbr-col-sm-12 mbr-col-md-5 mbr-col-lg-3 align-center md-pb">
-                <div class="card-wrapper">
-                    <div class="card-img img-with-overlay mbr-m-auto">
-                        <amp-img class="placeholder-loader rounded i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="https://app.8b.io/app/themes/webamp/components/_images/faces/face3.jpg" layout="responsive" width="253" height="253" alt="" i-amphtml-layout="responsive" style="--loader-delay-offset:28ms !important;"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
-                            <div placeholder="" class="placeholder amp-hidden">
-                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
-                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
-                                </svg></div>
-                            
-                        <img decoding="async" alt="" src="./ISN Orchestra_files/face3.jpg" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
-                    </div>
-                    <div class="card-box mbr-pt-3">
-                        <h3 class="card-title mbr-bold mbr-fonts-style display-5">Warner Music Indonesia</h3>
-                        
-                        
-                        
-                    </div>
-                </div>
-            </div> -->
-            <!--  -->
-            <!-- <div class="card mbr-col-sm-12 mbr-col-md-5 mbr-col-lg-3 align-center last-child">
-                <div class="card-wrapper">
-                    <div class="card-img img-with-overlay mbr-m-auto">
-                        <amp-img class="placeholder-loader rounded i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="https://app.8b.io/app/themes/webamp/components/_images/faces/face4.jpg" layout="responsive" width="253" height="253" alt="" i-amphtml-layout="responsive" style="--loader-delay-offset:28ms !important;"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 100%;"></i-amphtml-sizer>
-                            <div placeholder="" class="placeholder amp-hidden">
-                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
-                                    <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
-                                    <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
-                                </svg></div>
-                            
-                        <img decoding="async" alt="" src="./ISN Orchestra_files/face4.jpg" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
-                    </div>
-                    <div class="card-box mbr-pt-3">
-                        <h3 class="card-title mbr-bold mbr-fonts-style display-5">Vidio</h3>
-                    </div>
-                </div>
-            </div> -->
+                                </svg> --></div>
+
+                                <img decoding="async" alt="" src="img/gal2.png" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
+                                <div class="icon-wrap iconfont-wrapper" on="tap:lightbox1" role="button" tabindex="0">
+                                	<span class="amp-iconfont fa-search fa"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="gallery-item mbr-col-sm-12 mbr-col-lg-4 mbr-col-md-8 md-pb mbr-px-2">
+                        	<div class="gallery-img-wrap">
+                        		<amp-img on="tap:lightbox1" role="button" tabindex="0" class="placeholder-loader image-without-link i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="img/gal3.png" layout="responsive" height="628" width="942" alt="" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer>
+                        			<div placeholder="" class="placeholder amp-hidden">
+                        				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                        					<circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                        					<circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                        				</svg></div>
+
+                        				<img decoding="async" alt="" src="img/gal3.png" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
+                        				<div class="icon-wrap iconfont-wrapper" on="tap:lightbox1" role="button" tabindex="0">
+                        					<span class="amp-iconfont fa-search fa"></span>
+                        				</div>
+
+                        			</div>
+                        		</div></div>
+                        		<div class="mbr-col-md-12 mbr-col-sm-12 gallery-row row-second flex-wrap mbr-col-lg-12 mbr-pb-4 mbr-flex">
+
+                        			<div class="gallery-item mbr-col-sm-12 mbr-col-lg-4 mbr-col-md-8 md-pb mbr-px-2">
+                        				<div class="gallery-img-wrap">
+                        					<amp-img on="tap:lightbox1" role="button" tabindex="0" class="placeholder-loader image-without-link i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="img/gal4.png" layout="responsive" height="628" width="942" alt="" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer>
+                        						<div placeholder="" class="placeholder amp-hidden">
+                        							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                        								<circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                        								<circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                        							</svg></div>
+
+                        							<img decoding="async" alt="" src="img/gal4.png" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
+                        							<div class="icon-wrap iconfont-wrapper" on="tap:lightbox1" role="button" tabindex="0">
+                        								<span class="amp-iconfont fa-search fa"></span>
+                        							</div>
+
+                        						</div>
+                        					</div><div class="gallery-item mbr-col-sm-12 mbr-col-lg-4 mbr-col-md-8 md-pb mbr-px-2">
+                        						<div class="gallery-img-wrap">
+                        							<amp-img on="tap:lightbox1" role="button" tabindex="0" class="placeholder-loader image-without-link i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="img/gal5.png" layout="responsive" height="628" width="942" alt="" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer>
+                        								<div placeholder="" class="placeholder amp-hidden">
+                        									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                        										<circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                        										<circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                        									</svg></div>
+
+                        									<img decoding="async" alt="" src="img/gal5.png" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
+                        									<div class="icon-wrap iconfont-wrapper" on="tap:lightbox1" role="button" tabindex="0">
+                        										<span class="amp-iconfont fa-search fa"></span>
+                        									</div>
+
+                        								</div>
+                        							</div><div class="gallery-item mbr-col-sm-12 mbr-col-lg-4 mbr-col-md-8 md-pb mbr-px-2">
+                        								<div class="gallery-img-wrap">
+                        									<amp-img on="tap:lightbox1" role="button" tabindex="0" class="placeholder-loader image-without-link i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" src="img/gal6.png" layout="responsive" height="628" width="942" alt="" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 66.6667%;"></i-amphtml-sizer>
+                        										<div placeholder="" class="placeholder amp-hidden">
+                        											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                        												<circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                        												<circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                        											</svg></div>
+
+                        											<img decoding="async" alt="" src="img/gal6.png" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
+                        											<div class="icon-wrap iconfont-wrapper" on="tap:lightbox1" role="button" tabindex="0">
+                        												<span class="amp-iconfont fa-search fa"></span>
+                        											</div>
+
+                        										</div>
+                        									</div></div>
+
+
+                        								</div>
+                        							</div>
+                        							<amp-image-lightbox id="lightbox1" layout="nodisplay" class="i-amphtml-element i-amphtml-layout-nodisplay i-amphtml-built" i-amphtml-layout="nodisplay" style="" hidden="">
+                        								<a class="control" data-close-button-aria-label="Close">
+                        									<span class="close"></span>
+                        								</a>
+                        								<div class="i-amphtml-image-lightbox-container" style=""><div class="i-amphtml-image-lightbox-viewer"><img class="i-amphtml-image-lightbox-viewer-image" src="https://353123.8b.io/page1.html" style="top: 0px; left: 200px; width: 1118px; height: 746px; transform: translate(0px, 0px) scale(1);"></div><div id="lightbox1-caption" class="amp-image-lightbox-caption i-amphtml-image-lightbox-caption i-amphtml-empty"></div></div><button class="i-amphtml-screen-reader" tabindex="-1">Close the lightbox</button></amp-image-lightbox>
+                        							</section>
+
+                        							<section class="testimonials1 cid-sNfTzNl8bR" id="testimonials1-2o">
+
+
+                        								<!--  -->
+            <div class="container">
+            	<div class="title align-center">
+            		<h3 class="mbr-section-title mbr-bold mbr-fonts-style display-5">Ucapan Terima Kasih</h3>
+            		<br>
+            	</div>
+
+            	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <h2 style="text-align: center;">AKUTAHU Virtual Academy</h2>
+				      <img src="img/ava.png" class="d-block w-100">
+				    </div>
+				    <div class="carousel-item">
+				      <h2 style="text-align: center;">Media AKUTAHU</h2>
+				      <img src="img/media.png" class="d-block w-100">
+				    </div>
+				    <div class="carousel-item">
+				      <h2 style="text-align: center;">Komunitas AKUTAHU</h2>
+				      <img src="img/komunitas.png" class="d-block w-100">
+				    </div>
+				    <div class="carousel-item">
+				    	<h2 style="text-align: center;">Innovative Survey Network</h2>
+				      <img src="img/isn.png" class="d-block w-100">				       
+				    </div>
+				  </div>
+				 <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </button>
+				</div>
+
+                
         </div>
     </div>
 </section>
 
 <section class="contacts7 cid-sNfO4SMzUS" id="contacts7-2k">    
-    <div class="container">
-        <div class="title-wrap align-center">
-            <h3 class="mbr-section-title mbr-bold mbr-fonts-style display-5">
-                Hubungi Kami
-            </h3>            
-        </div>
-        <div class="mbr-row mbr-px-2 mbr-pt-4 mbr-jc-c">
-            <div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-4 align-center md-pb">
-                <div class="card-wrapper mbr-flex mbr-column">
-                    <div class="card-img align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="amp-iconfont fa-map-marker fa"></span>
-                        </div>
-                    </div>
-                    <div class="card-box mbr-pt-3">
-                        <h4 class="card-title mbr-bold mbr-fonts-style display-7">
-                            Alamat</h4>
-                        <p class="card-text mbr-fonts-style mbr-pt-2 display-7">
-                            Gedung PPHUI, Lt. 2, Jl. H.R. Rasuna Said, Kav. C22, Jakarta
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-4 align-center md-pb">
-                <div class="card-wrapper mbr-flex mbr-column">
-                    <div class="card-img align-center">
-                        <div class="iconfont-wrapper">
-                           <span class="amp-iconfont fa-phone fa"></span>
-                        </div>
-                    </div>
-                    <div class="card-box mbr-pt-3">
-                        <h4 class="card-title mbr-bold mbr-fonts-style display-7">
-                            Telepon</h4>
-                        <p class="card-text mbr-fonts-style mbr-pt-2 display-7">
-                            021-25981075/085697889533
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-4 align-center last-child">
-                <div class="card-wrapper mbr-flex mbr-column">
-                    <div class="card-img align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="amp-iconfont fa-envelope-o fa"><i class="fas fa-envelope"></i></span>
-                        </div>
-                    </div>
-                    <div class="card-box mbr-pt-3">
-                        <h4 class="card-title mbr-bold mbr-fonts-style display-7">Surel</h4>
-                        <p class="card-text mbr-pt-2 mbr-fonts-style display-7">isn-orchestra@akutahu.com</p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
+	<div class="container">
+		<div class="title-wrap align-center">
+			<h3 class="mbr-section-title mbr-bold mbr-fonts-style display-5">
+				Hubungi Kami
+			</h3>            
+		</div>
+		<div class="mbr-row mbr-px-2 mbr-pt-4 mbr-jc-c">
+			<div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-4 align-center md-pb">
+				<div class="card-wrapper mbr-flex mbr-column">
+					<div class="card-img align-center">
+						<div class="iconfont-wrapper">
+							<span class="amp-iconfont fa-map-marker fa"></span>
+						</div>
+					</div>
+					<div class="card-box mbr-pt-3">
+						<h4 class="card-title mbr-bold mbr-fonts-style display-7">
+						Alamat</h4>
+						<p class="card-text mbr-fonts-style mbr-pt-2 display-7">
+							Gedung PPHUI, Lt. 2, Jl. H.R. Rasuna Said, Kav. C22, Jakarta
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-4 align-center md-pb">
+				<div class="card-wrapper mbr-flex mbr-column">
+					<div class="card-img align-center">
+						<div class="iconfont-wrapper">
+							<span class="amp-iconfont fa-phone fa"></span>
+						</div>
+					</div>
+					<div class="card-box mbr-pt-3">
+						<h4 class="card-title mbr-bold mbr-fonts-style display-7">
+						Telepon</h4>
+						<p class="card-text mbr-fonts-style mbr-pt-2 display-7">
+							021-25981075/085697889533
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="card mbr-col-sm-12 mbr-col-md-8 mbr-col-lg-4 align-center last-child">
+				<div class="card-wrapper mbr-flex mbr-column">
+					<div class="card-img align-center">
+						<div class="iconfont-wrapper">
+							<span class="amp-iconfont fa-envelope-o fa"><i class="fas fa-envelope"></i></span>
+						</div>
+					</div>
+					<div class="card-box mbr-pt-3">
+						<h4 class="card-title mbr-bold mbr-fonts-style display-7">Surel</h4>
+						<p class="card-text mbr-pt-2 mbr-fonts-style display-7">isn-orchestra@akutahu.com</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
 </section>
 <section class="footer1 cid-sNfO4Ux6if" id="footer1-2m">
-    
-    
-    <div class="footer-container container">
-        <div class="copyright mbr-px-2 mbr-flex mbr-jc-c">
-            <p class="mbr-text mbr-fonts-style mbr-white align-center display-7">© <span>2021</span>&nbsp;ISN Orchestra</p>
-        </div>
-    </div>
+
+
+	<div class="footer-container container">
+		<div class="copyright mbr-px-2 mbr-flex mbr-jc-c">
+			<p class="mbr-text mbr-fonts-style mbr-white align-center display-7">© <span>2021</span>&nbsp;ISN Orchestra</p>
+		</div>
+	</div>
 </section>
 
 
-  
-  
+
+
 
 <!-- <div class="banner align-center" id="eightBBanner">
   <p class="mbr-text mbr-fonts-style display-7">The site was created with <a class="mbr-text" href="https://8b.com/" target="_blank">8b Free Website Builder</a></p>
@@ -581,16 +611,17 @@
   <div class="mbr-section-abuse-report display-7"><a href="mailto:s@8b.com?subject=8b%20Abuse%20Report%20353123.8b.io">Report Abuse</a></div>
 </div> -->
 <style amp-keyframes="">
- @keyframes animBanner {
-    0%   {opacity: 0;transform: translatey(-8rem);}
-    75%  {opacity: 0;transform: translatey(-8rem);}
-    100% {opacity: 1;transform: translatey(0);}
-  }
-  @keyframes animHeight {
-    0%   {transform: translatey(-8rem);}
-    75%  {transform: translatey(-8rem);}
-    100% {transform: translatey(0);}
-  }
-</>
+	@keyframes animBanner {
+		0%   {opacity: 0;transform: translatey(-8rem);}
+		75%  {opacity: 0;transform: translatey(-8rem);}
+		100% {opacity: 1;transform: translatey(0);}
+	}
+	@keyframes animHeight {
+		0%   {transform: translatey(-8rem);}
+		75%  {transform: translatey(-8rem);}
+		100% {transform: translatey(0);}
+	}
+	</>
 
-</body></html>
+	</body>
+	</html>
